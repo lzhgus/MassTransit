@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.*" />
+    <PackageReference Include="Hangfire.MemoryStorage" Version="1.7.*" />
+    <PackageReference Include="Hangfire.SqlServer" Version="1.7.*" />
+    <PackageReference Include="MassTransit.Hangfire" Version="8.0.7" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+    <PackageReference Include="MassTransit" Version="8.0.7" />
+  </ItemGroup>
+</Project>
